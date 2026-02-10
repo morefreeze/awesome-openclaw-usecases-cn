@@ -19,6 +19,8 @@
 
 Solving the bottleneck of OpenClaw adaptation: Not ~~skills~~, but finding **ways it can improve your life**. This is a community collection of real-life use cases for [OpenClaw](https://github.com/openclaw/openclaw).
 
+> **Warning:** OpenClaw skills may have critical security vulnerabilities. Review any skill thoroughly before use, you are responsible for your own safety.
+
 
 ## Social Media
 
