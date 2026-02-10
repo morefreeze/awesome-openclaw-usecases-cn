@@ -19,3 +19,4 @@
 - If your use case doesn't fit an existing category, suggest a new one in your PR
 - Duplicates are fine if the approach is meaningfully different
 - Don't use AI to come up with new use cases. Only suggest use cases you have actually tested and verified.
+- **No crypto-related use cases** — these will not be accepted.
