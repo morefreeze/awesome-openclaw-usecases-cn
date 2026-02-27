@@ -13,16 +13,16 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![Use Cases](https://img.shields.io/badge/usecases-30-blue?style=flat-square)
 ![Last Update](https://img.shields.io/github/last-commit/hesamsheikh/awesome-openclaw-usecases?label=Last%20Update&style=flat-square)
-[![Follow on X](https://img.shields.io/badge/Follow%20on-X-000000?style=flat-square&logo=x)](https://x.com/Hesamation)
+[![Follow on X](https://img.shields.io/badge/Follow%20on-X-000000?style=flat-square&logo=x)](https://x.com/morefreeze)
 [![Discord](https://img.shields.io/badge/Discord-Open%20Source%20AI%20Builders-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/vtJykN3t)
 
-<p><sub><a href="https://x.com/Hesamation">在 X 上打个招呼。</a></sub></p>
+<p><sub><a href="https://x.com/morefreeze">在 X 上打个招呼</a></sub></p>
 </div>
 
 # Awesome OpenClaw 使用案例
 
 > **⚠️ 翻译版本声明**  
-> 本文档为社区翻译的中文版本，可能存在滞后。如发现内容过时，请查阅[原始英文 README](README.md) 获取最新信息。
+> 本文档为社区翻译的中文版本，可能存在滞后。如发现内容过时，请查阅main分支[原始英文 README](README.md) 获取最新信息。
 
 ---
 
