@@ -5,7 +5,7 @@
 <br/>
 <br/>
 
-<strong>Discover ways of how people are really using OpenClaw (previously ClawdBot, MoltBot) in their daily life.
+<strong>探索人们如何真正在日常生活中使用 OpenClaw（前身为 ClawdBot、MoltBot）。
 </strong>
 <br />
 <br />
@@ -16,83 +16,93 @@
 [![Follow on X](https://img.shields.io/badge/Follow%20on-X-000000?style=flat-square&logo=x)](https://x.com/Hesamation)
 [![Discord](https://img.shields.io/badge/Discord-Open%20Source%20AI%20Builders-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/vtJykN3t)
 
-<p><sub><a href="https://x.com/Hesamation">Say hello on X.</a></sub></p>
+<p><sub><a href="https://x.com/Hesamation">在 X 上打个招呼。</a></sub></p>
 </div>
 
-# Awesome OpenClaw Use Cases
+# Awesome OpenClaw 使用案例
 
-Solving the bottleneck of OpenClaw adaptation: Not ~~skills~~, but finding **ways it can improve your life**. This is a community collection of real-life use cases for [OpenClaw](https://github.com/openclaw/openclaw).
+> **⚠️ 翻译版本声明**  
+> 本文档为社区翻译的中文版本，可能存在滞后。如发现内容过时，请查阅[原始英文 README](README.md) 获取最新信息。
 
-> **Warning:** OpenClaw skills and third-party dependencies referenced here may have critical security vulnerabilities. Many use cases link to community-built skills, plugins, and external repos that have **not been audited by the maintainer of this list**. Always review skill source code, check requested permissions, and avoid hardcoding API keys or credentials. You are solely responsible for your own security.
+---
 
-## Social Media
+解决 OpenClaw 普及的瓶颈：不是 ~~技能~~，而是找到 **它能改善你生活的方式**。这是 [OpenClaw](https://github.com/openclaw/openclaw) 的社区真实使用案例合集。
 
-| Name | Description |
+> **警告：** 此处引用的 OpenClaw 技能和第三方依赖可能存在严重的安全漏洞。许多用例链接到社区构建的技能、插件和外部仓库，这些**未经本列表维护者审核**。请始终审查技能源代码，检查请求的权限，并避免硬编码 API 密钥或凭证。您对自己的安全负全部责任。
+
+## 社交媒体
+
+| 名称 | 描述 |
 |------|-------------|
-| [Daily Reddit Digest](usecases/daily-reddit-digest.md) | Summarize a curated digest of your favourite subreddits, based on your preferences. |
-| [Daily YouTube Digest](usecases/daily-youtube-digest.md) | Get daily summaries of new videos from your favorite channels — never miss content from creators you follow. |
-| [X Account Analysis](usecases/x-account-analysis.md) | Get a qualitative analysis of your X account.|
-| [Multi-Source Tech News Digest](usecases/multi-source-tech-news-digest.md) | Automatically aggregate and deliver quality-scored tech news from 109+ sources (RSS, Twitter/X, GitHub, web search) via natural language. |
+| [每日 Reddit 摘要](usecases/每日-reddit-摘要.md) | 根据你的偏好，总结你喜爱的 subreddit 的精选摘要。 |
+| [每日 YouTube 摘要](usecases/每日-youtube-摘要.md) | 获取你关注频道的每日新视频摘要 —— 不错过你关注创作者的任何内容。 |
+| [X 账号分析](usecases/X-账号分析.md) | 获取你的 X 账号的定性分析。|
+| [多源科技新闻摘要](usecases/多源科技新闻摘要.md) | 自动聚合和分发来自 109+ 来源（RSS、Twitter/X、GitHub、网页搜索）的质量评分科技新闻。 |
 
-## Creative & Building
+## 创意与构建
 
-| Name | Description |
+| 名称 | 描述 |
 |------|-------------|
-| [Goal-Driven Autonomous Tasks](usecases/overnight-mini-app-builder.md) | Brain dump your goals and have your agent autonomously generate, schedule, and complete daily tasks — including building surprise mini-apps overnight. |
-| [YouTube Content Pipeline](usecases/youtube-content-pipeline.md) | Automate video idea scouting, research, and tracking for a YouTube channel. |
-| [Multi-Agent Content Factory](usecases/content-factory.md) | Run a multi-agent content pipeline in Discord — research, writing, and thumbnail agents working in dedicated channels. |
-| [Autonomous Game Dev Pipeline](usecases/autonomous-game-dev-pipeline.md) | Full lifecycle management of educational game development: from backlog selection to implementation, registration, documentation, and git commit. Enforces "Bugs First" policy. |
+| [目标驱动的自主任务](usecases/目标驱动的自主任务.md) | 倾泻你的目标，让智能体自主生成、安排并完成每日任务 —— 包括在一夜之间构建惊喜的迷你应用。 |
+| [YouTube 内容流水线](usecases/YouTube内容流水线.md) | 为 YouTube 频道自动化视频创意发掘、研究和追踪。 |
+| [多智能体内容工厂](usecases/多代理内容工厂.md) | 在 Discord 中运行多智能体内容流水线 —— 研究、写作和缩略图智能体在专用频道中协同工作。 |
+| [自主教育游戏开发流水线](usecases/自主教育游戏开发流水线.md) | 教育游戏开发的全生命周期管理：从待办事项选择到实现、注册、文档和 git 提交。强制执行 "先修复 bug" 政策。 |
 
-## Infrastructure & DevOps
+## 基础设施与 DevOps
 
-| Name | Description |
+| 名称 | 描述 |
 |------|-------------|
-| [n8n Workflow Orchestration](usecases/n8n-workflow-orchestration.md) | Delegate API calls to n8n workflows via webhooks — the agent never touches credentials, and every integration is visual and lockable. |
-| [Self-Healing Home Server](usecases/self-healing-home-server.md) | Run an always-on infrastructure agent with SSH access, automated cron jobs, and self-healing capabilities across your home network. |
+| [n8n 工作流编排](usecases/n8n工作流编排.md) | 通过 webhook 将 API 调用委托给 n8n 工作流 —— 智能体从不接触凭证，每个集成都是可视化的且可锁定。 |
+| [自愈家庭服务器](usecases/自愈家庭服务器.md) | 运行一个始终在线的基础设施智能体，具有 SSH 访问权限、自动化 cron 作业，以及跨家庭网络的自愈能力。 |
 
-## Productivity
+## 生产力
 
-| Name | Description |
+| 名称 | 描述 |
 |------|-------------|
-| [Autonomous Project Management](usecases/autonomous-project-management.md) | Coordinate multi-agent projects using STATE.yaml pattern — subagents work in parallel without orchestrator overhead. |
-| [Multi-Channel AI Customer Service](usecases/multi-channel-customer-service.md) | Unify WhatsApp, Instagram, Email, and Google Reviews in one AI-powered inbox with 24/7 auto-responses. |
-| [Phone-Based Personal Assistant](usecases/phone-based-personal-assistant.md) | Access your AI agent via phone calls, hands-free voice assistance for any phone. |
-| [Inbox De-clutter](usecases/inbox-declutter.md) | Summarize Newsletters and send you a digest as an email. |
-| [Personal CRM](usecases/personal-crm.md) | Automatically discover and track contacts from your email and calendar, with natural language queries. |
-| [Health & Symptom Tracker](usecases/health-symptom-tracker.md) | Track food intake and symptoms to identify triggers, with scheduled check-in reminders. |
-| [Multi-Channel Personal Assistant](usecases/multi-channel-assistant.md) | Route tasks across Telegram, Slack, email, and calendar from a single AI assistant. |
-| [Project State Management](usecases/project-state-management.md) | Event-driven project tracking with automatic context capture, replacing static Kanban boards. |
-| [Dynamic Dashboard](usecases/dynamic-dashboard.md) | Real-time dashboard with parallel data fetching from APIs, databases, and social media. |
-| [Todoist Task Manager](usecases/todoist-task-manager.md) | Maximize agent transparency by syncing reasoning and progress logs to Todoist. |
-| [Phone-Based Personal Assistant](usecases/phone-based-personal-assistant.md) | Access OpenClaw from any phone via voice call or SMS. Get calendar updates, Jira tickets, and web search results hands-free. |
-| [Family Calendar & Household Assistant](usecases/family-calendar-household-assistant.md) | Aggregate all family calendars into a morning briefing, monitor messages for appointments, and manage household inventory. |
-| [Multi-Agent Specialized Team](usecases/multi-agent-team.md) | Run multiple specialized agents (strategy, dev, marketing, business) as a coordinated team via a single Telegram chat. |
-| [Custom Morning Brief](usecases/custom-morning-brief.md) | Get a fully customized daily briefing — news, tasks, content drafts, and AI-recommended actions — texted to you every morning. |
-| [Second Brain](usecases/second-brain.md) | Text anything to your bot to remember it, then search through all your memories in a custom Next.js dashboard. |
-| [Event Guest Confirmation](usecases/event-guest-confirmation.md) | Call a list of event guests one-by-one to confirm attendance, collect notes, and compile a summary — fully automated via AI voice calls. |
+| [基于子代理的自主项目管理](usecases/基于子代理的自主项目管理.md) | 使用 STATE.yaml 模式协调多智能体项目 —— 子智能体并行工作，无需编排器开销。 |
+| [多渠道 AI 客户服务](usecases/多渠道AI客户服务平台.md) | 将 WhatsApp、Instagram、电子邮件和 Google 评价统一到一个 AI 驱动的收件箱中，实现 24/7 自动回复。 |
+| [基于电话的个人助理](usecases/基于电话的个人助理.md) | 通过电话访问你的 AI 智能体，为任何手机提供免提语音助手。 |
+| [收件箱整理](usecases/收件箱整理.md) | 总结新闻通讯并以电子邮件形式发送给你摘要。 |
+| [个人 CRM](usecases/个人CRM.md) | 自动从电子邮件和日历中发现并追踪联系人，支持自然语言查询。 |
+| [健康与症状追踪器](usecases/健康与症状追踪器.md) | 追踪食物摄入和症状以识别诱因，带有定期签到提醒。 |
+| [多渠道个人助理](usecases/多渠道个人助理.md) | 从单个 AI 助理路由任务到 Telegram、Slack、电子邮件和日历。 |
+| [项目状态管理](usecases/项目状态管理系统.md) | 事件驱动的项目追踪，自动捕获上下文，取代静态看板。 |
+| [动态仪表板](usecases/动态仪表板.md) | 实时仪表板，并行从 API、数据库和社交媒体获取数据。 |
+| [Todoist 任务管理器](usecases/Todoist任务管理器.md) | 通过将推理和进度日志同步到 Todoist，最大化智能体的透明度。 |
+| [基于电话的个人助理](usecases/基于电话的个人助理.md) | 通过语音通话或短信从任何手机访问 OpenClaw。免提获取日历更新、Jira 工单和网页搜索结果。 |
+| [家庭日历与家务助理](usecases/家庭日历与家务助理.md) | 将所有家庭日历聚合到早间简报中，监控消息以获取预约，并管理家庭库存。 |
+| [多智能体专业团队](usecases/多智能体专业团队.md) | 通过单个 Telegram 聊天，将多个专业智能体（战略、开发、营销、业务）作为协调团队运行。 |
+| [定制早间简报](usecases/定制早间简报.md) | 获取完全定制的每日简报 —— 新闻、任务、内容草稿和 AI 推荐的操作 —— 每天早上通过短信发送给你。 |
+| [第二大脑](usecases/第二大脑.md) | 向机器人发送任何内容来记住它，然后在自定义的 Next.js 仪表板中搜索你的所有记忆。 |
+| [活动嘉宾确认](usecases/活动嘉宾确认.md) | 逐一呼叫活动嘉宾名单以确认出席、收集备注并编译摘要 —— 通过 AI 语音通话完全自动化。 |
 
-## Research & Learning
+## 研究与学习
 
-| Name | Description |
+| 名称 | 描述 |
 |------|-------------|
-| [AI Earnings Tracker](usecases/earnings-tracker.md) | Track tech/AI earnings reports with automated previews, alerts, and detailed summaries. |
-| [Personal Knowledge Base (RAG)](usecases/knowledge-base-rag.md) | Build a searchable knowledge base by dropping URLs, tweets, and articles into chat. |
-| [Market Research & Product Factory](usecases/market-research-product-factory.md) | Mine Reddit and X for real pain points using the Last 30 Days skill, then have OpenClaw build MVPs that solve them. |
-| [Semantic Memory Search](usecases/semantic-memory-search.md) | Add vector-powered semantic search to your OpenClaw markdown memory files with hybrid retrieval and auto-sync. |
+| [AI 财报追踪器](usecases/AI财报追踪器.md) | 追踪科技/AI 财报，带有自动化预览、警报和详细摘要。 |
+| [个人知识库 (RAG)](usecases/个人知识库(RAG).md) | 通过将 URL、推文和文章拖入聊天来构建可搜索的知识库。 |
+| [市场研究与产品工厂](usecases/市场研究与产品工厂.md) | 使用 Last 30 Days 技能从 Reddit 和 X 挖掘真实痛点，然后让 OpenClaw 构建解决它们的 MVP。 |
+| [语义记忆搜索](usecases/语义记忆搜索.md) | 使用混合检索和自动同步，为你的 OpenClaw markdown 记忆文件添加向量驱动的语义搜索。 |
 
-## Finance & Trading
+## 金融与交易
 
-| Name | Description |
+| 名称 | 描述 |
 |------|-------------|
-| [Polymarket Autopilot](usecases/polymarket-autopilot.md) | Automated paper trading on prediction markets with backtesting, strategy analysis, and daily performance reports. |
+| [Polymarket 自动驾驶](usecases/Polymarket自动驾驶.md) | 在预测市场上进行自动化模拟交易，带有回测、策略分析和每日绩效报告。 |
 
-## 🤝 Contributing
+## 🤝 贡献
 
-We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+我们欢迎贡献！请参阅 [CONTRIBUTING.md](CONTRIBUTING.md) 了解指南。
 
-- Add a new usecase
-- Improve existing ones
+- 添加新的使用案例
+- 改进现有案例
 
-> Please only submit usecases you have already worked with and verified that works (at least for a day). We value real ideas that make our lives actually better, not worse!
+> 请只提交你已经使用过并验证有效的使用案例（至少使用一天）。我们重视真正让我们的生活变得更好的真实想法，而不是更糟！
 >
-> **Note:** We do not accept use cases related to crypto.
+> **注意：** 我们不接受与加密货币相关的使用案例。
+
+---
+
+**原文链接**: [README.md](README.md)  
+**最后同步**: 2026-02-27
